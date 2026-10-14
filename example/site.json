@@ -1,0 +1,36 @@
+{
+  "name": "demo-stackr",
+  "tagline": "One command workflow for you and your AI coding agent",
+  "description": "demo-stackr — minimal developer tool built for humans and AI coding agents.",
+  "url": "https://demo-stackr.kr",
+  "github": "https://github.com/eliotstocker/demo-stackr",
+  "favicon": "⚡",
+  "theme": {
+    "mode": "dark",
+    "gradientFrom": "#00FF88",
+    "gradientTo": "#FACC15"
+  },
+  "nav": [
+    {
+      "label": "How It Works",
+      "href": "#how-it-works"
+    },
+    {
+      "label": "Features",
+      "href": "#features"
+    },
+    {
+      "label": "CLI",
+      "href": "#cli"
+    },
+    {
+      "label": "Agents",
+      "href": "#agents"
+    },
+    {
+      "label": "GitHub",
+      "href": "https://github.com/eliotstocker/demo-stackr",
+      "primary": true
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "name": "stackr-site",
+  "version": "1.0.0",
+  "description": "Zero-dependency static site generator for *stac.kr style websites from Markdown and HTML snippets.",
+  "type": "module",
+  "main": "./src/index.js",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "bin": {
+    "stackr-site": "./bin/stackr-site.js"
+  },
+  "scripts": {
+    "build": "node ./bin/stackr-site.js build example -o example/dist",
+    "serve": "node ./bin/stackr-site.js serve example"
+  }
+}
